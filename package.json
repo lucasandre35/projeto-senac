@@ -1,0 +1,29 @@
+{
+  "name": "projeto-senac",
+  "version": "1.0.0",
+  "description": "projeto teste do curso de programação do senac.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasandre35/projeto-senac.git"
+  },
+  "keywords": [
+    "api",
+    "musica",
+    "json"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucasandre35/projeto-senac/issues"
+  },
+  "homepage": "https://github.com/lucasandre35/projeto-senac#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-modules": "^1.0.1"
+  }
+}
