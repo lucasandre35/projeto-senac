@@ -1,10 +1,13 @@
-const musicas = reuire("../model/musica.js");
+const musica = require("../models/musica.json");
 
-const getAll = (req, res) => {
-    console.log(req.url);
+const getAllMusica = (req, res) => {
+    console.log(req.url)
+    res.status(200).send(musica)
 
     res.send(musica);
 };
 
 
-module.exports = { getAll };
+module.exports = {
+    getAllMusica,
+}

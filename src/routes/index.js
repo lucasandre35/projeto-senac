@@ -1,8 +1,8 @@
 const express = require('express');
-const router = express.router();
+const router = express.Router();
 
-router.get('/', (req, res) => {
-    res.send({
+router.get('/', function (req, res) {
+    res.status(200).send({
         titulo:'Play list massa demais!' ,
         data: "19/11/2021"
     })
