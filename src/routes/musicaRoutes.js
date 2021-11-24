@@ -4,6 +4,6 @@ const controller = require('../controller/musicaController');
 
 
 router.get("/", controller.getAllMusica)
-
+router.post("/", controller.createMusica)
 
 module.exports = router;

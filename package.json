@@ -24,6 +24,7 @@
   "homepage": "https://github.com/lucasandre35/projeto-senac#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "fs": "^0.0.1-security",
     "node-modules": "^1.0.1"
   }
 }
