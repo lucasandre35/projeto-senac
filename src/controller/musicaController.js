@@ -23,7 +23,29 @@ const createMusica = (req, res) => {
     })
 }
 
+const getMusica = (req, res) => {
+    const musicaid = req.params.id
+    const musicaFound = musica.find((musica) => musica.id == musicaid)
+    if (musicaFound){
+        res.status(200).send(musicaFound)
+    } else {
+        res.status(404).send({ message :"musica não encontrada"})
+    }
+}
+
+const getMusicabytitle = (req, res) => {
+    const musicatitle= req.params.title
+    const musicaFound = musica.find((musica) => musica.title == musicatitle)
+    if (musicaFound){
+        res.status(200).send(musicaFound)
+    } else {
+        res.status(404).send({ message :"Titulo não encontrada"})
+    }
+}
+
 module.exports = {
+    getMusicabytitle,
+    getMusica,
     createMusica,
     getAllMusica,
 };

@@ -86,5 +86,29 @@
         "lunchyear": 2021,
         "favorited": true,
         "artists": "Luan Otten"
+    },
+    {
+        "id": 12,
+        "title": "Melhor dia 6",
+        "duration": "5:36",
+        "lunchyear": 2021,
+        "favorited": true,
+        "artists": "Dex, Matuê, Yunk Vino, The Boy...."
+    },
+    {
+        "id": 13,
+        "title": "Big Checks II",
+        "duration": "3:25",
+        "lunchyear": 2020,
+        "favorited": true,
+        "artists": "Yunk Vino, Sos & Duzz"
+    },
+    {
+        "id": 14,
+        "title": "Corte Americano",
+        "duration": "2:18",
+        "lunchyear": 2020,
+        "favorited": false,
+        "artists": "Filipe Ret"
     }
 ]
