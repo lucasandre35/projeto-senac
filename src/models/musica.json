@@ -1,11 +1,11 @@
 [
     {
         "id": 1,
-        "title": "Sugar",
-        "duration": "5:02",
-        "lunchyear": 2015,
-        "favorited": true,
-        "artists": " maroon 5"
+        "title": "Explodir",
+        "duration": "3:00",
+        "lunchyear": 2021,
+        "favorited": false,
+        "artists": " Anavitória"
     },
     {
         "id": 2,
@@ -79,14 +79,7 @@
         "favorited": true,
         "artists": " Igu , Yunk Vino "
     },
-    {
-        "id": 11,
-        "title": "Coisa Certa",
-        "duration": "3:47",
-        "lunchyear": 2021,
-        "favorited": true,
-        "artists": "Luan Otten"
-    },
+    {},
     {
         "id": 12,
         "title": "Melhor dia 6",
